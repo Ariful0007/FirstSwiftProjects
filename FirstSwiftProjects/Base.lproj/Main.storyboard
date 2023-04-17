@@ -22,7 +22,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </stackView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MDg-4H-acK">
-                                <rect key="frame" x="21" y="44" width="373" height="806.5"/>
+                                <rect key="frame" x="20.5" y="44" width="373" height="808"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="This is my first Android apps" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ib3-tk-VAQ">
                                         <rect key="frame" x="79" y="46" width="215" height="21"/>
@@ -30,8 +30,8 @@
                                         <color key="textColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tdc-sa-If7">
-                                        <rect key="frame" x="111" y="83" width="151" height="31"/>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tdc-sa-If7">
+                                        <rect key="frame" x="111" y="226" width="151" height="31"/>
                                         <color key="backgroundColor" systemColor="secondaryLabelColor"/>
                                         <color key="tintColor" systemColor="opaqueSeparatorColor"/>
                                         <state key="normal" title="Button"/>
@@ -43,13 +43,13 @@
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBrownColor"/>
                                 <constraints>
+                                    <constraint firstItem="tdc-sa-If7" firstAttribute="width" secondItem="MDg-4H-acK" secondAttribute="width" multiplier="0.404826" id="01P-3e-fok"/>
                                     <constraint firstItem="tdc-sa-If7" firstAttribute="centerX" secondItem="MDg-4H-acK" secondAttribute="centerX" id="0J5-FO-MKS"/>
                                     <constraint firstItem="Ib3-tk-VAQ" firstAttribute="centerX" secondItem="MDg-4H-acK" secondAttribute="centerX" id="6Fw-QG-C6d"/>
                                     <constraint firstItem="Ib3-tk-VAQ" firstAttribute="centerY" secondItem="MDg-4H-acK" secondAttribute="centerY" id="Tpr-Da-psz"/>
                                     <constraint firstItem="Ib3-tk-VAQ" firstAttribute="width" secondItem="MDg-4H-acK" secondAttribute="width" multiplier="0.57754" id="Yfd-zM-CEQ"/>
                                     <constraint firstItem="Ib3-tk-VAQ" firstAttribute="centerX" secondItem="MDg-4H-acK" secondAttribute="centerX" id="nBL-nz-bZo"/>
                                     <constraint firstItem="Ib3-tk-VAQ" firstAttribute="height" secondItem="MDg-4H-acK" secondAttribute="height" multiplier="0.0261194" id="qWY-BU-Bte"/>
-                                    <constraint firstItem="tdc-sa-If7" firstAttribute="centerY" secondItem="MDg-4H-acK" secondAttribute="centerY" id="qfy-4K-Is4"/>
                                     <constraint firstItem="Ib3-tk-VAQ" firstAttribute="centerX" secondItem="MDg-4H-acK" secondAttribute="centerX" id="rrD-rp-Tdl"/>
                                 </constraints>
                             </view>
@@ -57,11 +57,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="MDg-4H-acK" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="0WF-l3-VfB"/>
                             <constraint firstItem="MDg-4H-acK" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.9" id="4SL-9M-3Ec"/>
+                            <constraint firstItem="MDg-4H-acK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="9zd-xe-WfA"/>
                             <constraint firstItem="MDg-4H-acK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Bch-f4-aKj"/>
-                            <constraint firstItem="MDg-4H-acK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="QA9-uw-pZI"/>
-                            <constraint firstItem="MDg-4H-acK" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.9" id="YeF-fW-3wj"/>
-                            <constraint firstItem="MDg-4H-acK" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="zOh-ul-MSs"/>
                         </constraints>
                     </view>
                 </viewController>
